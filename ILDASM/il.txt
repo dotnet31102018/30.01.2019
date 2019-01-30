@@ -1,1 +1,3 @@
 C:\Users\HackerU\source\repos\3001\3001\bin\Debug>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\ildasm.exe" 3001.exe /out=file.il
+
+C:\Users\HackerU\source\repos\3001\3001\bin\Debug>notepad file.il
