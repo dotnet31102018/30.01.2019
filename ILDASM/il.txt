@@ -1,11 +1,14 @@
-C:\Users\HackerU\source\repos\3001\3001\bin\Debug>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\ildasm.exe" 3001.exe /out=file.il
+need to run in the exe folder bin\debug, for example:
+C:\Users\HackerU\source\repos\3001\3001\bin\Debug
+
+1) [modify the 3001.exe to your exe file name]
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\ildasm.exe" 3001.exe /out=file.il
 
 --or--
 
-C:\Users\HackerU\source\repos\3001\3001\bin\Debug>"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\ildasm.exe" 3001.exe /out=file.il
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\x64\ildasm.exe" 3001.exe /out=file.il
 
-after....
+2)
+notepad file.il
 
-C:\Users\HackerU\source\repos\3001\3001\bin\Debug>notepad file.il
-
-C:\Users\HackerU\source\repos\3001\3001\bin\Debug>"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe" file.il /output=3001.exe
+"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ilasm.exe" file.il /output=3001.exe
